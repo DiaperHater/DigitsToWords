@@ -5,11 +5,14 @@ import java.util.Random;
 public class Formatter {
     private Map<Integer , String> firstDigitMap = new LinkedHashMap();
     private Map<Integer , String> secondDigitMap = new LinkedHashMap();
+    private Map<Integer , String> thirdDigitMap = new LinkedHashMap();
 
     public Formatter() {
         fillFirstDigitMap();
         fillSecondDigitMap();
+        fillThirdDigitMap();
     }
+
 
     public static void main(String[] args) {
 
@@ -17,8 +20,8 @@ public class Formatter {
         Random random = new Random();
 
         for (int i = 0; i < 20; i++) {
-            Integer r = random.nextInt(99);
-            System.out.println(r + " = " + formatter.formatFirstTwoDigits(r));
+            Integer r = random.nextInt(1000);
+            System.out.println(r + " = " + formatter.formatFirstThreeDigits(r));
         }
 
 
@@ -58,6 +61,24 @@ public class Formatter {
         return result;
     }
 
+    public String formatFirstThreeDigits(Integer num){
+
+        if (num < 0 || num > 999){
+            throw new IllegalArgumentException("argument = " + num);
+        }
+
+
+        String result = "";
+
+        if(num > 99){
+            result = thirdDigitMap.get(num / 100) + " ";
+        }
+        result += formatFirstTwoDigits(num % 100);
+        result = result.replaceAll(" ноль","");
+
+        return result;
+    }
+
     private void fillFirstDigitMap() {
         firstDigitMap.put(0, "ноль");
         firstDigitMap.put(1, "один");
@@ -87,9 +108,21 @@ public class Formatter {
         secondDigitMap.put(3,"тридцать");
         secondDigitMap.put(4,"сорок");
         secondDigitMap.put(5,"пятьдесят");
-        secondDigitMap.put(6,"шестдесят");
-        secondDigitMap.put(7,"семдесят");
-        secondDigitMap.put(8,"восемдесят");
+        secondDigitMap.put(6,"шестьдесят");
+        secondDigitMap.put(7,"семьдесят");
+        secondDigitMap.put(8,"восемьдесят");
         secondDigitMap.put(9,"девяносто");
+    }
+
+    private void fillThirdDigitMap() {
+        thirdDigitMap.put(1, "сто");
+        thirdDigitMap.put(2, "двести");
+        thirdDigitMap.put(3, "триста");
+        thirdDigitMap.put(4, "четыреста");
+        thirdDigitMap.put(5, "пятьсот");
+        thirdDigitMap.put(6, "шестьсот");
+        thirdDigitMap.put(7, "семьсот");
+        thirdDigitMap.put(8, "восемьсот");
+        thirdDigitMap.put(9, "девятьсот");
     }
 }

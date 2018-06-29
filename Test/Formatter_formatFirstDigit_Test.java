@@ -8,12 +8,12 @@ public class Formatter_formatFirstDigit_Test {
 
 
     @Test(expected = IllegalArgumentException.class)
-    public void illigalArgument_ThrowsException(){
+    public void illegalArgument_ThrowsException(){
         formatter.formatFirstDigit(-1);
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void illigalArgument_ThrowsException_2(){
+    public void illegalArgument_ThrowsException_2(){
         formatter.formatFirstDigit(10);
     }
 

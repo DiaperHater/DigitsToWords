@@ -7,12 +7,12 @@ public class Formatter_formatFirstTwoDigits_Test {
     private final Formatter formatter = new Formatter();
 
     @Test(expected = IllegalArgumentException.class)
-    public void illigalArgument_trowsException() {
+    public void illegalArgument_trowsException() {
         formatter.formatFirstTwoDigits(-1);
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void illigalArgument_trowsException_2() {
+    public void illegalArgument_trowsException_2() {
         formatter.formatFirstTwoDigits(100);
     }
 
