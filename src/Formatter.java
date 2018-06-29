@@ -1,6 +1,10 @@
+import java.math.BigInteger;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Random;
+
+import static java.lang.Math.pow;
 
 public class Formatter {
     private Map<Integer , String> firstDigitMap = new LinkedHashMap();
@@ -16,13 +20,21 @@ public class Formatter {
 
     public static void main(String[] args) {
 
-        Formatter formatter = new Formatter();
-        Random random = new Random();
 
-        for (int i = 0; i < 20; i++) {
-            Integer r = random.nextInt(1000);
-            System.out.println(r + " = " + formatter.formatFirstThreeDigits(r));
+
+        Long num = new Long(9012387654321L);
+        ArrayList<Integer> arr = new ArrayList<>();
+
+        System.out.println(num);
+        System.out.println();
+
+        for (int i = 0; pow(10, i) < num;i+=3){
+            arr.add((int)(num / pow(10, i) % 1000));
+            System.out.println(arr.get(i/3));
         }
+
+        System.out.println();
+        System.out.println(arr);
 
 
     }
