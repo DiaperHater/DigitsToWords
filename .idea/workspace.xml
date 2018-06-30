@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cc84e7f-d753-4186-89e2-e661c7f108aa" name="Default" comment="" />
+    <list default="true" id="7cc84e7f-d753-4186-89e2-e661c7f108aa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/thousands.dat" beforeDir="false" afterPath="$PROJECT_DIR$/resourсes/thousandsNameList.dat" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thousands.dat" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resourses/thousands.dat">
+      <file leaf-file-name="thousandsNameList.dat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resourсes/thousandsNameList.dat">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThousandNameListDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThousandNameListDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +87,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,6 +120,8 @@
         <option value="$PROJECT_DIR$/Test/Formatter_formatFirstThreeDigits_Test.java" />
         <option value="$PROJECT_DIR$/src/Formatter.java" />
         <option value="$PROJECT_DIR$/resourses/thousands.dat" />
+        <option value="$PROJECT_DIR$/src/NameListDao.java" />
+        <option value="$PROJECT_DIR$/src/ThousandNameListDao.java" />
       </list>
     </option>
   </component>
@@ -119,6 +137,9 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -136,7 +157,12 @@
             <path>
               <item name="DigitsToWords" type="b2602c69:ProjectViewProjectNode" />
               <item name="DigitsToWords" type="462c0819:PsiDirectoryNode" />
-              <item name="resourses" type="462c0819:PsiDirectoryNode" />
+              <item name="resourсes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DigitsToWords" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitsToWords" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DigitsToWords" type="b2602c69:ProjectViewProjectNode" />
@@ -182,9 +208,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Formatter">
+  <component name="RunManager" selected="Application.ThousandNameListDao">
     <configuration name="Formatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Formatter" />
+      <module name="DigitsToWords" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ThousandNameListDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThousandNameListDao" />
       <module name="DigitsToWords" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -216,23 +247,6 @@
       <option name="MAIN_CLASS_NAME" value="Formatter_formatFirstDigit_Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Formatter_formatFirstDigit_Test.formatFromZeroToNineteen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DigitsToWords" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Formatter_formatFirstDigit_Test" />
-      <option name="METHOD_NAME" value="formatFromZeroToNineteen" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -299,18 +313,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Formatter" />
-      <item itemvalue="JUnit.Formatter_formatFirstDigit_Test.formatFromZeroToNineteen" />
       <item itemvalue="JUnit.Formatter_formatFirstDigit_Test" />
       <item itemvalue="JUnit.Formatter_formatFirstDigit_Test.illigalArgument_ThrowsException_2" />
       <item itemvalue="JUnit.All in DigitsToWords" />
+      <item itemvalue="Application.ThousandNameListDao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThousandNameListDao" />
         <item itemvalue="Application.Formatter" />
         <item itemvalue="JUnit.All in DigitsToWords" />
         <item itemvalue="JUnit.Formatter_formatFirstDigit_Test" />
         <item itemvalue="JUnit.Formatter_formatFirstDigit_Test.illigalArgument_ThrowsException_2" />
-        <item itemvalue="JUnit.Formatter_formatFirstDigit_Test.formatFromZeroToNineteen" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +340,7 @@
       <updated>1530219097772</updated>
       <workItem from="1530219111889" duration="6513000" />
       <workItem from="1530302650507" duration="7889000" />
-      <workItem from="1530393666299" duration="3503000" />
+      <workItem from="1530393666299" duration="6726000" />
     </task>
     <servers />
   </component>
@@ -363,7 +377,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17905000" />
+    <option name="totallyTimeSpent" value="21128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -378,19 +392,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2971698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4823113" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49430525" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985849" />
-      <window_info id="Favorites" order="2" sideWeight="0.5033557" side_tool="true" visible="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50569475" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -414,8 +428,14 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThousandNameListDao.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -516,7 +536,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resourses/thousands.dat">
+    <entry file="file://$PROJECT_DIR$/src/NameListDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThousandNameListDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourсes/thousandsNameList.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
