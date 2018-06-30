@@ -22,20 +22,21 @@ public class Formatter {
 
 
 
-        Long num = new Long(9012387654321L);
-        ArrayList<Integer> arr = new ArrayList<>();
+        BigInteger num = new BigInteger("654372759012387654321");
+        ArrayList<Integer> thousands = new ArrayList<>();
 
         System.out.println(num);
         System.out.println();
 
-        for (int i = 0; pow(10, i) < num;i+=3){
-            arr.add((int)(num / pow(10, i) % 1000));
-            System.out.println(arr.get(i/3));
+        BigInteger thousand = new BigInteger("1000");
+
+        for (int i = 0; thousand.pow(i).compareTo(num) <= 0;i++){
+            thousands.add( ( num.divide( thousand.pow(i) ).remainder(thousand).intValue() ));
+            System.out.println(thousands.get(i));
         }
 
         System.out.println();
-        System.out.println(arr);
-
+        System.out.println(thousands);
 
     }
 

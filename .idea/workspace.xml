@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc84e7f-d753-4186-89e2-e661c7f108aa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formatter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/Formatter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="28" column="101" selection-start-line="28" selection-start-column="101" selection-end-line="28" selection-end-column="101" />
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
                 <element signature="method#Formatter#0;class#Formatter#0" />
                 <element signature="method#formatFirstDigit#0;class#Formatter#0" />
@@ -38,16 +39,14 @@
       <file leaf-file-name="Formatter_formatFirstThreeDigits_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstThreeDigits_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="480">
               <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#273#274#0" expanded="true" />
                 <element signature="e#325#326#0" expanded="true" />
                 <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -141,6 +138,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,7 +316,8 @@
       <option name="presentableId" value="Default" />
       <updated>1530219097772</updated>
       <workItem from="1530219111889" duration="6513000" />
-      <workItem from="1530302650507" duration="7401000" />
+      <workItem from="1530302650507" duration="7889000" />
+      <workItem from="1530393666299" duration="2219000" />
     </task>
     <servers />
   </component>
@@ -354,7 +354,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13914000" />
+    <option name="totallyTimeSpent" value="16621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -369,19 +369,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2971698" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5016779" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985849" />
+      <window_info id="Favorites" order="2" sideWeight="0.5033557" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -398,10 +398,55 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Formatter.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="method#Formatter#0;class#Formatter#0" />
+            <element signature="method#formatFirstDigit#0;class#Formatter#0" />
+            <element signature="method#formatFirstTwoDigits#0;class#Formatter#0" />
+            <element signature="method#formatFirstThreeDigits#0;class#Formatter#0" />
+            <element signature="method#fillFirstDigitMap#0;class#Formatter#0" />
+            <element signature="method#fillSecondDigitMap#0;class#Formatter#0" />
+            <element signature="method#fillThirdDigitMap#0;class#Formatter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstThreeDigits_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstTwoDigits_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -427,16 +472,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstThreeDigits_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="480">
           <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
             <element signature="e#325#326#0" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -451,7 +494,7 @@
     <entry file="file://$PROJECT_DIR$/src/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="28" column="101" selection-start-line="28" selection-start-column="101" selection-end-line="28" selection-end-column="101" />
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="method#Formatter#0;class#Formatter#0" />
             <element signature="method#formatFirstDigit#0;class#Formatter#0" />
