@@ -58,9 +58,11 @@ public class ThousandsToWordsConverter {
         if (prefix.toCharArray()[prefix.length()-1] == 'о'){
             return prefix +" "+ replaceLastCharacters(suffix, 0, "ов");
         }
+        if (prefix.toCharArray()[prefix.length()-1] == 'к'){
+            return prefix +" "+ replaceLastCharacters(suffix, 0, "ов");
+        }
 
-//        throw new RuntimeException();
-        return "---error---";
+        throw new RuntimeException();
     }
 
     private String formatThousand(String prefix, String suffix) {
@@ -93,6 +95,9 @@ public class ThousandsToWordsConverter {
         if (prefix.toCharArray()[prefix.length()-1] == 'о'){
             return prefix +" "+ replaceLastCharacters(suffix, 1, "");
         }
+        if (prefix.toCharArray()[prefix.length()-1] == 'к'){
+            return prefix +" "+ replaceLastCharacters(suffix, 1, "");
+        }
 
         throw new RuntimeException();
     }
@@ -111,7 +116,7 @@ public class ThousandsToWordsConverter {
         Random random = new Random(99);
         ThousandsToWordsConverter converter = new ThousandsToWordsConverter();
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 100000; i++) {
             System.out.println(converter.convert(random.nextInt(999), random.nextInt(33)));
         }
     }

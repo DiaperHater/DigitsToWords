@@ -173,6 +173,16 @@ public class ThousandsToWordsConverter_convert_Test {
         assertEquals("четыреста миллионов", converter.convert(400, 2));
     }
 
+    @Test
+    public void argumentsAreOk_returnsNumberInWordRepresentation_31(){
+        assertEquals("сорок тысяч", converter.convert(40, 1));
+    }
+
+    @Test
+    public void argumentsAreOk_returnsNumberInWordRepresentation_32(){
+        assertEquals("сорок миллионов", converter.convert(40, 2));
+    }
+
 
 
 
