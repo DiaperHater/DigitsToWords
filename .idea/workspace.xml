@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7cc84e7f-d753-4186-89e2-e661c7f108aa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/thousands.dat" beforeDir="false" afterPath="$PROJECT_DIR$/resourсes/thousandsNameList.dat" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,26 +20,32 @@
       <file leaf-file-name="Formatter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Formatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="268">
+              <caret line="123" column="40" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="40" />
               <folding>
                 <element signature="method#Formatter#0;class#Formatter#0" />
                 <element signature="method#formatFirstDigit#0;class#Formatter#0" />
                 <element signature="method#formatFirstTwoDigits#0;class#Formatter#0" />
                 <element signature="method#formatFirstThreeDigits#0;class#Formatter#0" />
                 <element signature="method#fillFirstDigitMap#0;class#Formatter#0" />
-                <element signature="method#fillSecondDigitMap#0;class#Formatter#0" />
                 <element signature="method#fillThirdDigitMap#0;class#Formatter#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thousandsNameList.dat" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resourсes/thousandsNameList.dat">
+      <file leaf-file-name="ThousandsToWordsConverter_convert_Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/ThousandsToWordsConverter_convert_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="347">
+              <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/ThousandNameListDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
-              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,27 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Formatter_formatFirstThreeDigits_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstThreeDigits_Test.java">
+      <file leaf-file-name="ThousandsToWordsConverter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ThousandsToWordsConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Formatter_formatFirstTwoDigits_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstTwoDigits_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="62" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="62" />
+            <state relative-caret-position="321">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -87,9 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -122,6 +111,9 @@
         <option value="$PROJECT_DIR$/resourses/thousands.dat" />
         <option value="$PROJECT_DIR$/src/NameListDao.java" />
         <option value="$PROJECT_DIR$/src/ThousandNameListDao.java" />
+        <option value="$PROJECT_DIR$/src/NumberToWordsConverter.java" />
+        <option value="$PROJECT_DIR$/src/ThousandsToWordsConverter.java" />
+        <option value="$PROJECT_DIR$/Test/ThousandsToWordsConverter_convert_Test.java" />
       </list>
     </option>
   </component>
@@ -147,6 +139,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +167,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThousandNameListDao">
+  <component name="RunManager" selected="JUnit.All in DigitsToWords">
     <configuration name="Formatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Formatter" />
       <module name="DigitsToWords" />
@@ -320,9 +312,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in DigitsToWords" />
         <item itemvalue="Application.ThousandNameListDao" />
         <item itemvalue="Application.Formatter" />
-        <item itemvalue="JUnit.All in DigitsToWords" />
         <item itemvalue="JUnit.Formatter_formatFirstDigit_Test" />
         <item itemvalue="JUnit.Formatter_formatFirstDigit_Test.illigalArgument_ThrowsException_2" />
       </list>
@@ -340,44 +332,45 @@
       <updated>1530219097772</updated>
       <workItem from="1530219111889" duration="6513000" />
       <workItem from="1530302650507" duration="7889000" />
-      <workItem from="1530393666299" duration="6726000" />
+      <workItem from="1530393666299" duration="6985000" />
+      <workItem from="1530435971760" duration="3853000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 08m 31s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 12h 52m 51s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 09m 32s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 12h 53m 01s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 10m 27s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 12h 53m 34s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 13m 32s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 12h 59m 19s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 13m 44s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 12h 59m 57s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 14m 31s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 13h 02m 37s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 14m 54s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 13h 04m 38s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 15m 34s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 13h 05m 55s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 17m 00s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 13h 09m 07s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DigitsToWords - 2018.06.30 at 00h 18m 43s.xml">
+    <history-entry file="All_in_DigitsToWords - 2018.07.01 at 13h 11m 16s.xml">
       <configuration name="All in DigitsToWords" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21128000" />
+    <option name="totallyTimeSpent" value="25240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -392,8 +385,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4823113" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4823113" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -403,8 +396,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" sideWeight="0.50569475" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985849" />
-      <window_info id="Favorites" order="2" sideWeight="0.50569475" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -429,16 +422,69 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ThousandNameListDao.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/ThousandsToWordsConverter.java</url>
+          <line>41</line>
           <properties />
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="method#Formatter#0;class#Formatter#0" />
+            <element signature="method#formatFirstDigit#0;class#Formatter#0" />
+            <element signature="method#formatFirstTwoDigits#0;class#Formatter#0" />
+            <element signature="method#formatFirstThreeDigits#0;class#Formatter#0" />
+            <element signature="method#fillFirstDigitMap#0;class#Formatter#0" />
+            <element signature="method#fillThirdDigitMap#0;class#Formatter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThousandNameListDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstThreeDigits_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstTwoDigits_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourсes/thousandsNameList.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -449,7 +495,6 @@
             <element signature="method#formatFirstTwoDigits#0;class#Formatter#0" />
             <element signature="method#formatFirstThreeDigits#0;class#Formatter#0" />
             <element signature="method#fillFirstDigitMap#0;class#Formatter#0" />
-            <element signature="method#fillSecondDigitMap#0;class#Formatter#0" />
             <element signature="method#fillThirdDigitMap#0;class#Formatter#0" />
           </folding>
         </state>
@@ -486,7 +531,6 @@
             <element signature="method#formatFirstTwoDigits#0;class#Formatter#0" />
             <element signature="method#formatFirstThreeDigits#0;class#Formatter#0" />
             <element signature="method#fillFirstDigitMap#0;class#Formatter#0" />
-            <element signature="method#fillSecondDigitMap#0;class#Formatter#0" />
             <element signature="method#fillThirdDigitMap#0;class#Formatter#0" />
           </folding>
         </state>
@@ -499,9 +543,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/NameListDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstTwoDigits_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstThreeDigits_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="362">
           <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -513,50 +571,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Formatter_formatFirstTwoDigits_Test.java">
+    <entry file="file://$PROJECT_DIR$/resourсes/thousandsNameList.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Formatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="method#Formatter#0;class#Formatter#0" />
-            <element signature="method#formatFirstDigit#0;class#Formatter#0" />
-            <element signature="method#formatFirstTwoDigits#0;class#Formatter#0" />
-            <element signature="method#formatFirstThreeDigits#0;class#Formatter#0" />
-            <element signature="method#fillFirstDigitMap#0;class#Formatter#0" />
-            <element signature="method#fillSecondDigitMap#0;class#Formatter#0" />
-            <element signature="method#fillThirdDigitMap#0;class#Formatter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NameListDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ThousandNameListDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resourсes/thousandsNameList.dat">
+    <entry file="file://$PROJECT_DIR$/Test/ThousandsToWordsConverter_convert_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="347">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="123" column="40" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="40" />
+          <folding>
+            <element signature="method#Formatter#0;class#Formatter#0" />
+            <element signature="method#formatFirstDigit#0;class#Formatter#0" />
+            <element signature="method#formatFirstTwoDigits#0;class#Formatter#0" />
+            <element signature="method#formatFirstThreeDigits#0;class#Formatter#0" />
+            <element signature="method#fillFirstDigitMap#0;class#Formatter#0" />
+            <element signature="method#fillThirdDigitMap#0;class#Formatter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThousandsToWordsConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
         </state>
       </provider>
     </entry>
