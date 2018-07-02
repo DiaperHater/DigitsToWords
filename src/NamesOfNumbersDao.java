@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class NamesOfLargeNumbersDao implements NameListDao {
+class NamesOfNumbersDao implements NameListDao {
 
     private static final String FILE_PATH = "./resourсes/namesOfNumbers.lst";
     private static final int numberOfLinesInFile = 33;
@@ -41,13 +41,4 @@ public class NamesOfLargeNumbersDao implements NameListDao {
         return null;
     }
 
-    public static void main(String[] args) {
-        NamesOfLargeNumbersDao dao = new NamesOfLargeNumbersDao();
-
-        Random rand = new Random(1);
-        for (int i = 0; i < 20; i++) {
-            int r = rand.nextInt(33);
-            System.out.println(r + " " + dao.getName(r));
-        }
-    }
 }

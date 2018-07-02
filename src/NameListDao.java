@@ -1,3 +1,3 @@
-public interface NameListDao {
+interface NameListDao {
     public String getName(int exponent);
 }

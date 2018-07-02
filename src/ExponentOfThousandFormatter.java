@@ -1,9 +1,9 @@
 import java.util.Random;
 
-public class ExponentOfThousandFormatter {
+class ExponentOfThousandFormatter {
 
     private ThreeDigitFormatter formatter = new ThreeDigitFormatter();
-    private NamesOfLargeNumbersDao namesOfLargeNumbersDao = new NamesOfLargeNumbersDao();
+    private NameListDao namesOfNumbersDao = new NamesOfNumbersDao();
 
     public String format(int number, int exponentOfThousand){
 
@@ -16,7 +16,7 @@ public class ExponentOfThousandFormatter {
             return prefix;
         }
 
-        String suffix = namesOfLargeNumbersDao.getName(exponentOfThousand);
+        String suffix = namesOfNumbersDao.getName(exponentOfThousand);
 
         if (number == 1){
             return suffix;
@@ -112,12 +112,4 @@ public class ExponentOfThousandFormatter {
         return targetString.substring(0, targetString.length() - countOfCharsToReplace)+replacement;
     }
 
-    public static void main(String[] args) {
-        Random random = new Random(99);
-        ExponentOfThousandFormatter formatter = new ExponentOfThousandFormatter();
-
-        for (int i = 0; i < 100000; i++) {
-            System.out.println(formatter.format(random.nextInt(999), random.nextInt(33)));
-        }
-    }
 }

@@ -6,7 +6,7 @@ import java.util.Random;
 
 import static java.lang.Math.pow;
 
-public class ThreeDigitFormatter {
+class ThreeDigitFormatter {
     private Map<Integer , String> firstDigitMap = new LinkedHashMap();
     private Map<Integer , String> secondDigitMap = new LinkedHashMap();
     private Map<Integer , String> thirdDigitMap = new LinkedHashMap();
@@ -17,28 +17,6 @@ public class ThreeDigitFormatter {
         fillThirdDigitMap();
     }
 
-
-    public static void main(String[] args) {
-
-
-
-        BigInteger num = new BigInteger("654372759012387654321");
-        ArrayList<Integer> thousands = new ArrayList<>();
-
-        System.out.println(num);
-        System.out.println();
-
-        BigInteger thousand = new BigInteger("1000");
-
-        for (int i = 0; thousand.pow(i).compareTo(num) <= 0;i++){
-            thousands.add( ( num.divide( thousand.pow(i) ).remainder(thousand).intValue() ));
-            System.out.println(thousands.get(i));
-        }
-
-        System.out.println();
-        System.out.println(thousands);
-
-    }
 
     public String formatFirstDigit(Integer num) {
 
