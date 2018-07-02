@@ -1,11 +1,11 @@
 import java.util.Random;
 
-public class ThousandsToWordsConverter {
+public class ExponentOfThousandFormatter {
 
-    private Formatter formatter = new Formatter();
-    private ThousandNameListDao thousandNameListDao = new ThousandNameListDao();
+    private ThreeDigitFormatter formatter = new ThreeDigitFormatter();
+    private NamesOfLargeNumbersDao namesOfLargeNumbersDao = new NamesOfLargeNumbersDao();
 
-    public String convert(int number, int exponentOfThousand){
+    public String format(int number, int exponentOfThousand){
 
         checkArgument(number);
         checkArgument(exponentOfThousand);
@@ -16,7 +16,7 @@ public class ThousandsToWordsConverter {
             return prefix;
         }
 
-        String suffix = thousandNameListDao.getName(exponentOfThousand);
+        String suffix = namesOfLargeNumbersDao.getName(exponentOfThousand);
 
         if (number == 1){
             return suffix;
@@ -114,10 +114,10 @@ public class ThousandsToWordsConverter {
 
     public static void main(String[] args) {
         Random random = new Random(99);
-        ThousandsToWordsConverter converter = new ThousandsToWordsConverter();
+        ExponentOfThousandFormatter formatter = new ExponentOfThousandFormatter();
 
         for (int i = 0; i < 100000; i++) {
-            System.out.println(converter.convert(random.nextInt(999), random.nextInt(33)));
+            System.out.println(formatter.format(random.nextInt(999), random.nextInt(33)));
         }
     }
 }

@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ThousandNameListDao implements NameListDao {
+public class NamesOfLargeNumbersDao implements NameListDao {
 
-    private static final String FILE_PATH = "./resourсes/thousandsNameList.dat";
+    private static final String FILE_PATH = "./resourсes/namesOfNumbers.lst";
     private static final int numberOfLinesInFile = 33;
 
     @Override
@@ -42,7 +42,7 @@ public class ThousandNameListDao implements NameListDao {
     }
 
     public static void main(String[] args) {
-        ThousandNameListDao dao = new ThousandNameListDao();
+        NamesOfLargeNumbersDao dao = new NamesOfLargeNumbersDao();
 
         Random rand = new Random(1);
         for (int i = 0; i < 20; i++) {

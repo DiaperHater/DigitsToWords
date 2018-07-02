@@ -2,9 +2,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Formatter_formatFirstTwoDigits_Test {
+public class ThreeDigitFormatter_formatFirstTwoDigits_Test {
 
-    private final Formatter formatter = new Formatter();
+    private final ThreeDigitFormatter formatter = new ThreeDigitFormatter();
 
     @Test(expected = IllegalArgumentException.class)
     public void illegalArgument_trowsException() {

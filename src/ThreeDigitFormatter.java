@@ -6,12 +6,12 @@ import java.util.Random;
 
 import static java.lang.Math.pow;
 
-public class Formatter {
+public class ThreeDigitFormatter {
     private Map<Integer , String> firstDigitMap = new LinkedHashMap();
     private Map<Integer , String> secondDigitMap = new LinkedHashMap();
     private Map<Integer , String> thirdDigitMap = new LinkedHashMap();
 
-    public Formatter() {
+    public ThreeDigitFormatter() {
         fillFirstDigitMap();
         fillSecondDigitMap();
         fillThirdDigitMap();
