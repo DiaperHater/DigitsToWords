@@ -2,33 +2,33 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class NumberToWordRepresentationFormatter_format_Test {
+public class NumberConverter_format_Test {
 
-    private final NumberToWordRepresentationFormatter formatter = new NumberToWordRepresentationFormatter();
+    private final NumberConverter formatter = new NumberConverter();
 
     @Test(expected = NumberFormatException.class)
     public void argIsNotNumber_throwsException(){
-        formatter.format("123dfr");
+        formatter.asWords("123dfr");
     }
 
     @Test
     public void argIsOk_noException(){
-        formatter.format("9876123456");
+        formatter.asWords("9876123456");
     }
 
     @Test
     public void argIsOk_returnsNumberInWordRepresentation(){
-        assertEquals("ноль", formatter.format("0"));
+        assertEquals("ноль", formatter.asWords("0"));
     }
 
     @Test
     public void argIsOk_returnsNumberInWordRepresentation_2(){
-        assertEquals("две тысячи два", formatter.format("2002"));
+        assertEquals("две тысячи два", formatter.asWords("2002"));
     }
 
     @Test
     public void argIsOk_returnsNumberInWordRepresentation_3(){
-        assertEquals("минус три", formatter.format("-3"));
+        assertEquals("минус три", formatter.asWords("-3"));
     }
 
 

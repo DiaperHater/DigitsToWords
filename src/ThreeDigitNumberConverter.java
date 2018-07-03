@@ -6,19 +6,36 @@ import java.util.Random;
 
 import static java.lang.Math.pow;
 
-class ThreeDigitFormatter {
+class ThreeDigitNumberConverter {
     private Map<Integer , String> firstDigitMap = new LinkedHashMap();
     private Map<Integer , String> secondDigitMap = new LinkedHashMap();
     private Map<Integer , String> thirdDigitMap = new LinkedHashMap();
 
-    public ThreeDigitFormatter() {
+    public ThreeDigitNumberConverter() {
         fillFirstDigitMap();
         fillSecondDigitMap();
         fillThirdDigitMap();
     }
 
+    public String asWords(Integer num){
 
-    public String formatFirstDigit(Integer num) {
+        if (num < 0 || num > 999){
+            throw new IllegalArgumentException("argument = " + num);
+        }
+
+
+        String result = "";
+
+        if(num > 99){
+            result = thirdDigitMap.get(num / 100) + " ";
+        }
+        result += formatFirstTwoDigits(num % 100);
+        result = result.replaceAll(" ноль","");
+
+        return result;
+    }
+
+    private String formatFirstDigit(Integer num) {
 
         if(num < 0 || num > 9){
             throw new IllegalArgumentException("argument = " + num.toString());
@@ -27,7 +44,7 @@ class ThreeDigitFormatter {
         return firstDigitMap.get(num);
     }
 
-    public String formatFirstTwoDigits(Integer num){
+    private String formatFirstTwoDigits(Integer num){
 
         if(num < 0 || num > 99){
             throw new IllegalArgumentException("argument = " + num);
@@ -52,23 +69,6 @@ class ThreeDigitFormatter {
         return result;
     }
 
-    public String formatFirstThreeDigits(Integer num){
-
-        if (num < 0 || num > 999){
-            throw new IllegalArgumentException("argument = " + num);
-        }
-
-
-        String result = "";
-
-        if(num > 99){
-            result = thirdDigitMap.get(num / 100) + " ";
-        }
-        result += formatFirstTwoDigits(num % 100);
-        result = result.replaceAll(" ноль","");
-
-        return result;
-    }
 
     private void fillFirstDigitMap() {
         firstDigitMap.put(0, "ноль");

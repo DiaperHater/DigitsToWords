@@ -1,16 +1,14 @@
-import java.util.Random;
+class ExponentOfThousand {
 
-class ExponentOfThousandFormatter {
-
-    private ThreeDigitFormatter formatter = new ThreeDigitFormatter();
+    private ThreeDigitNumberConverter threeDigitNumberConverter = new ThreeDigitNumberConverter();
     private NameListDao namesOfNumbersDao = new NamesOfNumbersDao();
 
-    public String format(int number, int exponentOfThousand){
+    public String asWords(int number, int exponentOfThousand){
 
         checkArgument(number);
         checkArgument(exponentOfThousand);
 
-        String prefix = formatter.formatFirstThreeDigits(number);
+        String prefix = threeDigitNumberConverter.asWords(number);
 
         if (exponentOfThousand == 0){
             return prefix;
@@ -21,16 +19,15 @@ class ExponentOfThousandFormatter {
         if (number == 1){
             return suffix;
         }
-        ////////////////////////////
 
         if (exponentOfThousand == 1){// тысяча
             return formatThousand(prefix, suffix);
         }
 
-        return formatRest(prefix, suffix);
+        return formatMillionsAndBigger(prefix, suffix);
     }
 
-    private String formatRest(String prefix, String suffix) {
+    private String formatMillionsAndBigger(String prefix, String suffix) {
         if (prefix.toCharArray()[prefix.length()-1] == 'н'){
             return prefix +" "+ suffix;
         }

@@ -4,9 +4,9 @@ import DDT.DataPair;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class DataDrivenTest {
+public class NumberConverterDDT {
 
-    private static final NumberToWordRepresentationFormatter formater = new NumberToWordRepresentationFormatter();
+    private static final NumberConverter converter = new NumberConverter();
 
 
     @Test
@@ -17,7 +17,7 @@ public class DataDrivenTest {
 
         while (dataDao.hasNext()){
             pair = dataDao.next();
-            assertEquals(pair.expectedValue, formater.format(pair.argumentValue));
+            assertEquals(pair.expectedValue, converter.asWords(pair.argumentValue));
         }
 
     }

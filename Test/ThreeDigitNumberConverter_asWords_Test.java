@@ -2,42 +2,42 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ThreeDigitFormatter_formatFirstThreeDigits_Test {
+public class ThreeDigitNumberConverter_asWords_Test {
 
-    private final ThreeDigitFormatter formatter = new ThreeDigitFormatter();
+    private final ThreeDigitNumberConverter formatter = new ThreeDigitNumberConverter();
 
     @Test(expected = IllegalArgumentException.class)
     public void illegalArgument_throwsException(){
-        formatter.formatFirstThreeDigits(-1);
+        formatter.asWords(-1);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void illegalArgument_throwsException_2(){
-        formatter.formatFirstThreeDigits(1000);
+        formatter.asWords(1000);
     }
 
     @Test
     public void argumentIsOk_noExceptionThrown(){
-        formatter.formatFirstThreeDigits(898);
+        formatter.asWords(898);
     }
 
     @Test
     public void argumentIsOk_returnsNumberInWordRepresentation(){
-        assertEquals("сто", formatter.formatFirstThreeDigits(100));
+        assertEquals("сто", formatter.asWords(100));
     }
 
     @Test
     public void argumentIsOk_returnsNumberInWordRepresentation_2(){
-        assertEquals("сто двадцать девять", formatter.formatFirstThreeDigits(129));
+        assertEquals("сто двадцать девять", formatter.asWords(129));
     }
 
     @Test
     public void argumentIsOk_returnsNumberInWordRepresentation_3(){
-        assertEquals("ноль", formatter.formatFirstThreeDigits(0));
+        assertEquals("ноль", formatter.asWords(0));
     }
 
     @Test
     public void argumentIsOk_returnsNumberInWordRepresentation_4(){
-        assertEquals("двести семьдесят один", formatter.formatFirstThreeDigits(271));
+        assertEquals("двести семьдесят один", formatter.asWords(271));
     }
 }
