@@ -26,12 +26,5 @@ public class DataDao {
     public boolean hasNext(){
         return scanner.hasNext();
     }
-
-    public static void main(String[] args) throws FileNotFoundException {
-        DataDao dao = new DataDao();
-        while (dao.hasNext()){
-            DataPair pair = dao.next();
-            System.out.println(pair.argumentValue +" "+pair.expectedValue);
-        }
-    }
+    
 }
